@@ -9,7 +9,7 @@ for(int i=0;i<n;i++){
 	scanf("%d",&a[i]);
 	}
 for(int i=0;i<n/2;i++){
-	a[i] =c;
+	c= a[i];
 	a[i]=a[n-i-1];
 	a[n-i-1]=c;
 	}
