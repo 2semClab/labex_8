@@ -13,6 +13,7 @@ for(int i=0;i<n/2;i++){
 	a[i]=a[n-i-1];
 	a[n-i-1]=c;
 	}
+printf ("Reverse of the array : ");
 for(int i=0;i<n;i++){
 	printf("%d  ",a[i]);
 	}
