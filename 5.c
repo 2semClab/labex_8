@@ -12,6 +12,11 @@ printf("Enter the element to be inserted : ");
 scanf("%d",&num);
 printf("Enter the position of insertion : ");
 scanf("%d",&pos);
+printf("Array elements before insertion: ");
+for(int i=0;i<n;i++){
+	printf("%d  ",a[i]);
+	}
+printf("\n");
 for(int i =n-1;i>=pos;i--){
 	a[i+1]=a[i];
 	}
