@@ -8,6 +8,11 @@ printf("Enter %d elements: ",n);
 for(int i=0;i<n;i++){
 	scanf("%d",&a[i]);
 	}
+printf ("Array Elements : ");
+for(int i=0;i<n;i++){
+	printf("%d  ",a[i]);
+	}
+printf("\n");
 for(int i=0;i<n/2;i++){
 	c= a[i];
 	a[i]=a[n-i-1];
