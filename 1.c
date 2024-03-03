@@ -1,3 +1,5 @@
+// WAP to create an array that can store n integers and display the contents
+// of the array.
 #include<stdio.h>
 int main(){
 int n;
